@@ -19,8 +19,8 @@ public class CapsLimitCommand implements CommandExecutor {
                     return true;
                 }else if(args.length == 1){
                     if(args[0].matches("-?\\d+")){
-                        int nbHopper = Integer.parseInt(args[0]);
-                        Kronalia.getInstance().getConfig().set("authorized-caps", nbHopper);
+                        int nbMaj = Integer.parseInt(args[0]);
+                        Kronalia.getInstance().getConfig().set("authorized-caps", nbMaj);
                         try {
                             Kronalia.getInstance().getConfig().save(new File(Kronalia.getInstance().getDataFolder(), "config.yml"));
                         } catch (IOException e) {
