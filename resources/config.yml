@@ -1,0 +1,405 @@
+#################################
+#          KronaVision          #
+#################################
+
+vision:
+  effect:
+    activate: "&aL'effet de vision nocturne a ete : &aactive !"
+    desactivate: "&bL'effet de vision nocturne a ete : &cdesactive !"
+  permission: "&8[Krona&6Vision] &cVous n'avez pas la permission d'executer cette commande !"
+
+#################################
+#          KronaVision          #
+#################################
+
+#################################
+#          KronaReload          #
+#################################
+
+reload:
+  success: "&8[Krona&6Reload] &7Vous avez recharge la configuration avec &asucces &7!"
+  permission: "&8[Krona&6Reload] &cVous n'avez pas la permission d'executer cette commande !"
+
+#################################
+#          KronaReload          #
+#################################
+
+#################################
+#           KronaVoid           #
+#################################
+
+void:
+  spawn: "&8[Krona&6Void]  &7Le point d'apparition a ete défini avec &asucces &7!"
+  toggle:
+    active: "&8[Krona&6Void] &cVous avez active l'anti-void sur ce monde."
+    inactive: "&8[Krona&6Void] &cVous avez desactive l'anti-void sur ce monde."
+    unknow: "&8[Krona&6Void] &cEnregistrement du monde."
+  permission: "&8[Krona&6Void] &c: &cVous n'avez pas la permission d'executer cette commande !"
+
+#################################
+#           KronaVoid           #
+#################################
+
+#################################
+#           KronaSpam           #
+#################################
+
+spam: "&8[Krona&6Spam] &cVeuillez ne pas utiliser de messages similaires. Veuillez patienter, &b%time% &csecondes, avant d'utiliser a nouveau le chat."
+cooldown: 3 #En seconde
+
+#################################
+#           KronaSpam           #
+#################################
+
+#################################
+#           KronaCaps           #
+#################################
+
+caps:
+  caps-limit: "&8[Krona&6Caps] &cL'utilisation de beaucoup de majuscules n'est pas autorisee!"
+  permission: "&8[Krona&6Caps] &c: &cVous n'avez pas la permission d'executer cette commande !"
+authorized-caps: 5
+
+#################################
+#           KronaCaps           #
+#################################
+
+#################################
+#          KronaHopper          #
+#################################
+
+hopper-limit: 6
+hoppers:
+  place-hopper-limit: "&8[Krona&6Hoppers] &cVous avez atteint la limite de %nbHoppers% hoppers dans ce chunk !"
+  permission: "&8[Krona&6Hoppers] &c: &cVous n'avez pas la permission d'executer cette commande !"
+
+#################################
+#          KronaHopper          #
+#################################
+
+#################################
+#          KronaDeath           #
+#################################
+
+kill-meta: "&6[<killer>] &7a ete tue par &6[<target>] &7avec &6[<killerItem>]"
+kill: "&6[<killer>] &7a ete tue par &6[<target>]"
+
+#################################
+#          KronaDeath           #
+#################################
+
+#################################
+#           KronaRTP            #
+#################################
+
+rtp: "&8[Krona&6RTP] &b» &7Vous avez été téléporté, en &c[<cordonnées>]"
+cooldown-rtp:
+  message: "&8[Krona&6RTP] &b» &7Vous avez déjà utilisé un ticket. Veuillez patienter pendant encore &c[<temps>]"
+  time: 24 #En heure
+
+
+#################################
+#           KronaRTP            #
+#################################
+
+#################################
+#         KronaPotions          #
+#################################
+
+potions:
+  stack:
+    succes: "&8[Krona&6Potions] &aVous avez stacke vos potions !"
+    no-potion: "&8[Krona&6Potions] &cVous n'avez pas de potions a stocker !"
+    args: "&8[Krona&6Potions] &cTrop d'arguments. Usage : /kronapotion"
+  permission: "&8[Krona&6Potions] &cVous n'avez pas la permission d'executer cette commande !"
+
+regeneration:
+  normal:
+    level1:
+      bool: true
+      number: 16
+    level2:
+      bool: true
+      number: 16
+    long:
+      bool: true
+      number: 16
+  splash:
+    level1:
+      bool: true
+      number: 16
+    level2:
+      bool: true
+      number: 16
+    long:
+      bool: true
+      number: 16
+
+speed:
+  normal:
+    level1:
+      bool: true
+      number: 16
+    level2:
+      bool: true
+      number: 16
+    long:
+      bool: true
+      number: 16
+  splash:
+    level1:
+      bool: true
+      number: 16
+    level2:
+      bool: true
+      number: 16
+    long:
+      bool: true
+      number: 16
+
+fire_resistance:
+  normal:
+    level1:
+      bool: true
+      number: 16
+    level2:
+      bool: true
+      number: 16
+    long:
+      bool: true
+      number: 16
+  splash:
+    level1:
+      bool: true
+      number: 16
+    level2:
+      bool: true
+      number: 16
+    long:
+      bool: true
+      number: 16
+
+poison:
+  normal:
+    level1:
+      bool: true
+      number: 16
+    level2:
+      bool: true
+      number: 16
+    long:
+      bool: true
+      number: 16
+  splash:
+    level1:
+      bool: true
+      number: 16
+    level2:
+      bool: true
+      number: 16
+    long:
+      bool: true
+      number: 16
+
+heal:
+  normal:
+    level1:
+      bool: true
+      number: 16
+    level2:
+      bool: true
+      number: 16
+    long:
+      bool: true
+      number: 16
+  splash:
+    level1:
+      bool: true
+      number: 16
+    level2:
+      bool: true
+      number: 16
+    long:
+      bool: true
+      number: 16
+
+night_vision:
+  normal:
+    level1:
+      bool: true
+      number: 16
+    level2:
+      bool: true
+      number: 16
+    long:
+      bool: true
+      number: 16
+  splash:
+    level1:
+      bool: true
+      number: 16
+    level2:
+      bool: true
+      number: 16
+    long:
+      bool: true
+      number: 16
+
+weakness:
+  normal:
+    level1:
+      bool: true
+      number: 16
+    level2:
+      bool: true
+      number: 16
+    long:
+      bool: true
+      number: 16
+  splash:
+    level1:
+      bool: true
+      number: 16
+    level2:
+      bool: true
+      number: 16
+    long:
+      bool: true
+      number: 16
+
+strength:
+  normal:
+    level1:
+      bool: true
+      number: 16
+    level2:
+      bool: true
+      number: 16
+    long:
+      bool: true
+      number: 16
+  splash:
+    level1:
+      bool: true
+      number: 16
+    level2:
+      bool: true
+      number: 16
+    long:
+      bool: true
+      number: 16
+
+slowness:
+  normal:
+    level1:
+      bool: true
+      number: 16
+    level2:
+      bool: true
+      number: 16
+    long:
+      bool: true
+      number: 16
+  splash:
+    level1:
+      bool: true
+      number: 16
+    level2:
+      bool: true
+      number: 16
+    long:
+      bool: true
+      number: 16
+
+jump_boost:
+  normal:
+    level1:
+      bool: true
+      number: 16
+    level2:
+      bool: true
+      number: 16
+    long:
+      bool: true
+      number: 16
+  splash:
+    level1:
+      bool: true
+      number: 16
+    level2:
+      bool: true
+      number: 16
+    long:
+      bool: true
+      number: 16
+
+damage:
+  normal:
+    level1:
+      bool: true
+      number: 16
+    level2:
+      bool: true
+      number: 16
+    long:
+      bool: true
+      number: 16
+  splash:
+    level1:
+      bool: true
+      number: 16
+    level2:
+      bool: true
+      number: 16
+    long:
+      bool: true
+      number: 16
+
+water_breath:
+  normal:
+    level1:
+      bool: true
+      number: 16
+    level2:
+      bool: true
+      number: 16
+    long:
+      bool: true
+      number: 16
+  splash:
+    level1:
+      bool: true
+      number: 16
+    level2:
+      bool: true
+      number: 16
+    long:
+      bool: true
+      number: 16
+
+invisibility:
+  normal:
+    level1:
+      bool: true
+      number: 16
+    level2:
+      bool: true
+      number: 16
+    long:
+      bool: true
+      number: 16
+  splash:
+    level1:
+      bool: true
+      number: 16
+    level2:
+      bool: true
+      number: 16
+    long:
+      bool: true
+      number: 16
+
+
+#################################
+#         KronaPotions          #
+#################################

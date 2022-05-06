@@ -1,0 +1,18 @@
+name: KronaUtils
+version: 0.0.6
+main: fr.deltadesnoc.krona.Kronalia
+author: DeltaDesnoc
+description: Plugin développé pour le serveur Kronalia
+commands:
+  kronavision:
+    description: Permet d'activer et désactiver la vision nocturne
+  kronareload:
+    description: Permet de reload la config du plugin
+  kronavoid:
+    description: Empêche la mort des joueurs lorsqu'ils tombent dans le vide dans chaque monde
+  kronahopper:
+    description: Permet de changer le nombre de hopper par chunk
+  kronacaps:
+    description: Permet de changer le nombre de majuscules par message
+  kronapotion:
+    description: Permet de stacker des potions
