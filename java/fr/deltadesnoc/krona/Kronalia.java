@@ -5,14 +5,10 @@ import fr.deltadesnoc.krona.events.*;
 import fr.deltadesnoc.krona.tabcompleter.VoidCompleter;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.TabCompleter;
-import org.bukkit.configuration.file.FileConfiguration;
-import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import java.io.File;
-import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -20,7 +16,6 @@ public class Kronalia extends JavaPlugin {
 
     private static Kronalia instance;
     private Map<Player, Integer> chatCooldown;
-    private Map<Player, Integer> rtpCooldown;
 
     @Override
     public void onEnable() {
@@ -94,23 +89,4 @@ public class Kronalia extends JavaPlugin {
         return getChatCooldown().containsKey(player);
     }
 
-    public Map<Player, Integer> getRTPCooldown() {
-        return rtpCooldown;
-    }
-
-    public int getPlayerRTPCooldown(Player player){
-        return getRTPCooldown().get(player);
-    }
-
-    public void addPlayerRTPCooldown(Player player, int cooldown){
-        getRTPCooldown().put(player, cooldown);
-    }
-
-    public void removePlayerRTPCooldown(Player player){
-        getRTPCooldown().remove(player);
-    }
-
-    public boolean hasRTPCooldown(Player player){
-        return getRTPCooldown().containsKey(player);
-    }
 }
